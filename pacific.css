@@ -1,3 +1,15 @@
+table {border: 2px solid #3399cc;
+cell-spacing: none;
+border-collapse: collapse;}
+
+td,th {padding: 0.5em;
+border: 2px solid #3399cc;}
+
+td {text-align: center;}
+
+.text {text-align: left;}
+
+tr:nth-child(odd) {background-color:#f5fafc;}
 * { box-sizing: border-box; }
 body { background-color: #EAEAEA;
        color: #555555; 
