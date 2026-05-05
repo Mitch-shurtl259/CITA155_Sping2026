@@ -1,88 +1,127 @@
+h1 {text-align:center;
+font-weight:bold;
+border: 1px solid #000000}
 
-header { background-color: #002171; 
-         color: #FFFFFF; 
-		letter-spacing: 0.25em; 
-		 text-align: center;
-		 padding-top: 0.5em;
-		 padding-bottom: 0.5em;
+header {background-color: #cbcbcb;
+width: 100%;
+padding:10px;}
+h2 {text-align: center;
+text-decoration: underline;}
 
-}
-#wrapper { 
-           
-		   background-color: #90C7E3;
-		   background-image: linear-gradient(to bottom, #FFFFFF, #09C7E3);
-}
-h1    { margin-bottom: 0; 
-        margin-top: 0;
-        font-family: Georgia, "Times New Roman", serif; 
-}
-nav   { 
-        text-align: center;
-        font-weight: bold;
-        padding: 0;
-		font-size: 120%;
-}
 
-nav ul { list-style-type: none;
-         margin: 0;
-		 padding-left: 0;
-		 font-size: 1.2em; 
-}
-nav li { border-bottom: 1px solid #002171; }
-nav a { text-decoration: none; }
-nav a:link    { color: #5C7FA3; }
-nav a:visited { color: #344873; }
-nav a:hover   { color: #A52A2A; }
-main  { background-color: #FFFFFF;
-        
-		padding: 1px 20px 20px 30px;
-        display: block;
-		overflow: auto;
-}
+.candace-text {position: relative; left:450px; bottom:250px; 
+	width: 250px;}
+.lorri-text {position: relative; left:450px; bottom:250px; 
+	width: 250px;}
+.geno-text {position: relative; left:450px; bottom:250px; 
+	width: 250px;}
+.kim-text {position: relative; left:450px; bottom:250px; 
+	width: 250px;}
 
-h2    { color: #000033
-        text-shadow: 1px 1px  #CCCCCC;
-        font-family: Georgia, "Times New Roman", serif; 
-        text-align: center;
-}
-h3    { color: #000033;
-        font-family: Georgia, "Times New Roman", serif; 
-        text-align:center;
-}
-h5 {text-align:center}
-main ul    { list-style-image: url(marker.gif); }
-dt    { color: #002171; }
-
-footer { 
-         background-color: #FFFFFF;
-		 font-size: 75%;
-         font-style: italic;
-		 text-align: center;
-		 padding: 2em;
-		 font-family: Georgia, "Times New Roman", serif;
-}
+#center{display: block;margin-left: auto; margin-right:auto; 
+	width: 30%;}
+.align {margin-left: 350px;}
+.align-geno {margin-left: 300px;}
+h4 {text-align:center;
+text-decoration: underline;}
+h3 {text-align:center;
 
 }
 
-main {
-    display: row;
-    grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px;
-    padding: 20px;
-    background: #f4f4f4;}
+p { margin:10px }
+main{ background-color: lightgray; 
+padding: 10px;
+width: 100%;}
 
-.colums{
-    background: white;
-    padding: 10px;
-   border: solid 1px ;
-    text-align:center;
-  }
-  h4 {text-align:center;}
+main a {text-decoration: none;}
+main a:link   { color: #000000; }
+main a:visited {color: #000000}
+main a:hover   { color: #0ffff0; }
 
-  .align {margin-right: 500px}
-  .text_parker{position: absolute;
-      left: 800px;
-      top: 500px;
-      width: 300px; }
+nav a:link   { color: #0000ff; }
+nav a:visited {color: #0000ff}
+nav a:hover   { color: #0ffff0; }
+
+nav {
+  width: 100%;
+  height: 40px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding: 0 10px;
+  background-color: #cbcbcb;
 }
-.text_lorri {}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px; 
+   display: inline;
+
+}
+
+navbar a:link    { color: #00ff00; }
+navbar a:hover   { color: #0000ff; }
+navbar {
+	
+  width: 100%;
+  height: 40px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding: 0 10px; 
+  background-color: #cbcbcb;
+}
+navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+navbar li {
+  margin: 0 10px; 
+   display: inline;
+
+}
+
+footer { text-align: center;
+background-color: #cbcbcb;
+width: 100%; 
+padding: 0 10px;}
+
+#absolute{position: absolute; 
+	top: 180px;
+	left: 50px;
+	width:200px; }
+
+#list{
+	position: absolute;
+	top: 180px;
+	left: 1500px;
+	width: 200px;
+}
+
+
+#img{
+	position: absolute;
+	top: 500px;
+	left: 1500px;
+	width: 300px;
+}
+
+#img2{
+
+	position: absolute;
+	top: 500px;
+	left: 50px;
+	width: 300px;
+}
+#details {position: absolute; top: 130px;
+	left: 1550px;
+	font-size: 30px;}
+
+#heading2{position: absolute; top: 130px;
+	left: 80px}
