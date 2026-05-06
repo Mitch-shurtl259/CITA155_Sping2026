@@ -57,11 +57,23 @@ nav ul {
   padding: 0;
 }
 
-nav li {
-  margin: 0 10px; 
+nav li { 
    display: inline;
+   padding: 0 10px;
 
 }
+nav ul ul { position: absolute;
+            background-color: #ffffff;
+            padding: 0;
+            display: none;
+            font-weight: bold;
+          }
+nav ul ul li { border: 1px solid #000000;
+         display: block;
+         width: 8.1em;
+         padding-left: em;
+         margin-left: 0; }
+nav li:hover ul { display: block; }
 
 navbar a:link    { color: #00ff00; }
 navbar a:hover   { color: #0000ff; }
