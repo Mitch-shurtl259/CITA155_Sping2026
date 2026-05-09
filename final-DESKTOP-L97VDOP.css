@@ -6,7 +6,7 @@ header {background-color: #cbcbcb;
 width: 100%;
 padding:10px;}
 h2 {text-align: center;
-}
+text-decoration: underline;}
 h4 {text-align:center;
 }
 h3 {text-align:center;
@@ -14,7 +14,7 @@ h3 {text-align:center;
 }
 
 #head4{
-  font-size: 20;
+  font-size: 20px;
 }
 
 p { margin:10px }
@@ -35,7 +35,7 @@ p { margin:10px }
 
 
 section {float: left;
-width: 28%;
+width: 33%;
 padding-left: 2em; padding-right: 2em; 
 background-color: lightgray;
 }
@@ -86,8 +86,8 @@ nav ul ul li { border: 1px solid #000000;
         }
 nav li:hover ul { display: block; }
 
-navbar a:link    { color: #0000ff; }
-navbar a:hover   { color: #0ffff0; }
+navbar a:link    { color: #00ff00; }
+navbar a:hover   { color: #0000ff; }
 navbar {
 	
   width: 100%;
@@ -148,60 +148,3 @@ padding: 0 10px;}
 
 #heading2{position: absolute; top: 130px;
 	left: 80px}
-
-
-
-
-.gallery { display: flex;
-           flex-wrap: wrap;
-           justify-content: space-around;
-       width: 70%;
-       margin: auto;
-
-}
-#wrapper { 
-           
-       background-color: #90C7E3;
-       background-image: linear-gradient(to bottom, red, blue);
-}
-
-figure { position: relative;
-        opacity: .75;
-        transition: all ease-out 3s;
-      margin: 1em;
-      z-index: 1;
-        background-color: #ffffff;
-      color: rgba(0,0,0,0); 
-      font-size: .5em;
-      text-align: center;
-}
-
-figure:hover { opacity: 1;
-               transform: scale(3); 
-         z-index: 999;
-         box-shadow: 3px 3px 3px #333;
-         color: rgba(0, 0, 0, 1); 
-}
-table {border: 2px solid #3399cc;
-cell-spacing: none;
-border-collapse: collapse;}
-
-td,th {padding: 0.5em;
-border: 2px solid #3399cc;}
-
-td {text-align: center;}
-
-.text {text-align: left;}
-
-tr:nth-child(odd) {background-color:#f5fafc;}
-* { box-sizing: border-box; }
-
-h2 a {text-decoration: none;}
-h2 a:link   { color: #000000; }
-h2 a:visited {color: #000000;}
-h2 a:hover   {color: #0ffff0; }
-
-
-.style{ text-decoration: underline; } 
-.coaching {position: relative; left:1000px; bottom:250px; }
-.center { margin-left: auto; margin-right: auto; }
