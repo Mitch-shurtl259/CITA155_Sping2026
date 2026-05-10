@@ -86,7 +86,7 @@ nav ul ul li { border: 1px solid #000000;
         }
 nav li:hover ul { display: block; }
 
-navbar a:link    { color: #0000ff; }
+navbar a:link    { color: #551A8B; }
 navbar a:hover   { color: #0ffff0; }
 navbar {
 	
@@ -162,7 +162,7 @@ padding: 0 10px;}
 #wrapper { 
            
        background-color: #90C7E3;
-       background-image: linear-gradient(to bottom, red, blue);
+       background-image: linear-gradient(to bottom, gray, lightgray);
 }
 
 figure { position: relative;
@@ -205,3 +205,4 @@ h2 a:hover   {color: #0ffff0; }
 .style{ text-decoration: underline; } 
 .coaching {position: relative; left:1000px; bottom:250px; }
 .center { margin-left: auto; margin-right: auto; }
+.text-center {text-align:center;}
