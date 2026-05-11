@@ -272,7 +272,9 @@ figure:hover { opacity: 1;
 }
 table {border: 2px solid #3399cc;
 cell-spacing: none;
-border-collapse: collapse;}
+border-collapse: collapse;
+width: 10px;
+}
 
 td,th {padding: 0.5em;
 border: 2px solid #3399cc;}
